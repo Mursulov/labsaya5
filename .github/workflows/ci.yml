@@ -18,8 +18,14 @@ jobs:
         with:
           dotnet-version: '8.0.x'
 
-      - name: Make script executable
-        run: chmod +x scripts/build_and_test.sh
+      - name: Restore
+        run: dotnet restore Lab5_CollectionsSolution.sln
 
-      - name: Run build_and_test.sh (create solution, build, tests, run app)
-        run: ./scripts/build_and_test.sh
+      - name: Build
+        run: dotnet build Lab5_CollectionsSolution.sln --configuration Release --no-restore
+
+      - name: Run unit tests (test project)
+        run: dotnet test tests/Lab5.Tests/Lab5.Tests.csproj --configuration Release --no-build --verbosity normal
+
+      - name: Run application (optional)
+        run: dotnet run --project src/Lab5App/Lab5App.csproj --configuration Release --no-build || true
