@@ -1,0 +1,17 @@
+2025-10-26 12:40:09 UTC | Logger initialized.
+2025-10-26 12:40:10 UTC | Program started.
+2025-10-26 12:40:19 UTC | Matrix filled with random values in [2,3].
+2025-10-26 12:40:19 UTC | Created MyMatrix 2x2 range [2,3]
+2025-10-26 12:40:19 UTC | Shown full matrix.
+2025-10-26 12:40:19 UTC | ShowPartialy rows 0-1 cols 0-1.
+2025-10-26 12:40:19 UTC | Matrix resized to 3x4.
+2025-10-26 12:40:19 UTC | Changed size to 3x4
+2025-10-26 12:40:19 UTC | Shown full matrix.
+2025-10-26 12:40:19 UTC | MyList: added item. New count = 1
+2025-10-26 12:40:19 UTC | MyList: added item. New count = 2
+2025-10-26 12:40:19 UTC | MyList: added item. New count = 3
+2025-10-26 12:40:19 UTC | Created MyList and added 10,20,30
+2025-10-26 12:40:19 UTC | MyDictionary: added key='one'. Count=1
+2025-10-26 12:40:19 UTC | MyDictionary: added key='two'. Count=2
+2025-10-26 12:40:19 UTC | Added two items to MyDictionary
+2025-10-26 12:40:19 UTC | Program finished.

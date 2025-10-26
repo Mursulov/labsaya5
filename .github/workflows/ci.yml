@@ -1,0 +1,25 @@
+name: .NET Build & Test + Run
+
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Make script executable
+        run: chmod +x scripts/build_and_test.sh
+
+      - name: Run build_and_test.sh (create solution, build, tests, run app)
+        run: ./scripts/build_and_test.sh

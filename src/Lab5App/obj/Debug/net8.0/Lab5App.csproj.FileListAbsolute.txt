@@ -1,0 +1,15 @@
+/workspaces/labsaya5/src/Lab5App/bin/Debug/net8.0/Lab5App
+/workspaces/labsaya5/src/Lab5App/bin/Debug/net8.0/Lab5App.deps.json
+/workspaces/labsaya5/src/Lab5App/bin/Debug/net8.0/Lab5App.runtimeconfig.json
+/workspaces/labsaya5/src/Lab5App/bin/Debug/net8.0/Lab5App.dll
+/workspaces/labsaya5/src/Lab5App/bin/Debug/net8.0/Lab5App.pdb
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.AssemblyInfoInputs.cache
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.AssemblyInfo.cs
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.csproj.CoreCompileInputs.cache
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.sourcelink.json
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.dll
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/refint/Lab5App.dll
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.pdb
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/Lab5App.genruntimeconfig.cache
+/workspaces/labsaya5/src/Lab5App/obj/Debug/net8.0/ref/Lab5App.dll
